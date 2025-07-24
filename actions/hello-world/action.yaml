@@ -1,0 +1,7 @@
+name: "Hello World Action"
+description: "Just echoes a message"
+
+runs:
+  using: "composite"
+  steps:
+    - run: echo "👋 Hello, World!"
